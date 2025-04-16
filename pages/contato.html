@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="../js/scripts.js" defer></script>
+    <title>Cardápio - Tia Rosa</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="menu_principal">
+        <div class="logo">
+          <a href="../index.html">
+            <img src="../img/logo.webp" alt="Logo do Site" />
+          </a>
+        </div>
+        <ul class="itens-menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="cardapio.html">Cárdapio</a></li>
+          <li><a href="SobreNos.html">Sobre nós</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <div class="menu-mobile" id="menu-mobile">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="contact-page">
+      <section class="contact-info">
+        <h2>Entre em Contato</h2>
+        <div class="info-container">
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Endereço</h3>
+              <p>Setor de Grandes Áreas Sul 915</p>
+              <p>Brasília/DF</p>
+              <p>CEP: 70390-140</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>Telefone</h3>
+              <p>(61) 3204-3542</p>
+              <p>(61) 9 8912-6543 (WhatsApp)</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>coffetiarosa@gmail.com</p>
+              <p>reservas.coffetiarosa@gmail.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h3>Horário de Funcionamento</h3>
+              <p>Segunda a Sexta: 7h às 20h</p>
+              <p>Sábado e Domingo: 8h às 18h</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-form">
+        <h2>Mande uma Mensagem</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+          <div class="form-group">
+            <label for="subject">Assunto:</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+      </section>
+
+      <section class="map">
+        <h2>Onde Estamos</h2>
+        <div class="map-container">
+          <!-- Inserir iframe do Google Maps ou outro serviço de mapa -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d277.1869367440077!2d-47.928056387701844!3d-15.822566007510895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a30040ebcf009%3A0xae33bc0b5f196738!2sSGAS%20I%20St.%20de%20Grandes%20%C3%81reas%20Sul%20915%20-%20Asa%20Sul%2C%20Bras%C3%ADlia%20-%20DF%2C%2070390-150!5e0!3m2!1spt-BR!2sbr!4v1744755530127!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Sobre Nós</h3>
+          <p>
+            Um lugar para conversar, trabalhar ou simplesmente relaxar com um
+            bom café.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="SobreNos.html">Sobre nós</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contato</h3>
+          <p>Email: coffetiarosa@gmail.com</p>
+          <p>Telefone: (61) 9 8912-6543</p>
+          <p>
+            Endereço: Brasília/DF - Setor de Grandes Áreas Sul 915 -
+            CEP:70390-140
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; Tia Rosa. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>

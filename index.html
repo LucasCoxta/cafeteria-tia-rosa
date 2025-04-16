@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js" defer></script>
+    <title>Coffee-Shops Tia Rosa</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="menu_principal">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.webp" alt="Logo do Site" />
+          </a>
+        </div>
+        <ul class="itens-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/cardapio.html">Cárdapio</a></li>
+          <li><a href="pages/SobreNos.html">Sobre nós</a></li>
+          <li><a href="pages/contato.html">Contato</a></li>
+        </ul>
+        <div class="menu-mobile" id="menu-mobile">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="container-home">
+          <div class="title-home">
+            <img
+              src="img/Brown_and_Beige_Modern_Minimalist_Coffee_Shop_Logo-removebg-preview.webp"
+              alt="logoxicara"
+              class="logo-xicara"
+            />
+            <h2>Bem-vindo à</h2>
+            <img
+              src="img/5-removebg-preview.webp"
+              alt="logoletras"
+              class="logo-letras"
+            />
+            <p>Um espaço para saborear, relaxar e se conectar</p>
+            <p>
+              Cafés especiais, doces artesanais e aquele clima que só um bom
+              café pode oferecer.
+            </p>
+            <div class="btn-container">
+              <a href="/cardapio" class="btn">
+                <i class="fas fa-utensils"></i> Ver Cardápio
+              </a>
+              <a href="/localizacao" class="btn">
+                <i class="fas fa-map-marker-alt"></i> Como Chegar
+              </a>
+            </div>
+          </div>
+          <div class="fundo-home">
+            <img src="img/fundo.webp" alt="BannerComXicaraDeCafe" />
+          </div>
+        </div>
+      </section>
+
+      <section id="cardapio_destaque">
+        <h2 class="titulo-topo">Do café ao docinho:</h2>
+        <p class="intro">os astros mais pedidos do nosso cardápio!</p>
+        <div class="container-cards">
+          <!-- Card 1 -->
+          <div class="card">
+            <img
+              src="img/cafeee-xpresso.webp"
+              alt="cafe expresso"
+              class="card-imagem"
+            />
+            <div class="card-conteudo">
+              <h3 class="card-titulo">O Clássico Indestrutível</h3>
+              <p class="card-descricao">
+                Café Expresso - O campeão que nunca sai do pódio! Sempre salva
+                até a segunda-feira mais dura.
+              </p>
+              <p class="card-preco">R$ 8,50</p>
+              <a href="./pages/cardapio.html" class="btn">Ver Cardápio</a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <img
+              src="img/Croissant-Chocolate.webp"
+              alt="Croissant-Chocolate"
+              class="card-imagem"
+            />
+            <div class="card-conteudo">
+              <h3 class="card-titulo">O Doce que Vira Paixão</h3>
+              <p class="card-descricao">
+                <span>Croissant de Chocolate</span> - Tão pedido que a gente até
+                sonha com ele! Vira e mexe some do balcão… misteriosamente.
+              </p>
+              <p class="card-preco">R$ 12,50</p>
+              <a href="./pages/cardapio.html" class="btn">Ver Cardápio</a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card">
+            <img
+              src="img/Cappuccino-Canela.webp"
+              alt="Cappuccino Canela"
+              class="card-imagem"
+            />
+            <div class="card-conteudo">
+              <h3 class="card-titulo">O Bebido em Segredo</h3>
+              <p class="card-descricao">
+                <span>Cappuccino com Canela</span> - O preferido dos "eu só
+                quero um cafezinho" que viram "me dá dois!"
+              </p>
+              <p class="card-preco">R$ 13,90</p>
+              <a href="./pages/cardapio.html" class="btn">Ver Cardápio</a>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="card">
+            <img
+              src="img/Latte-Art.webp"
+              alt="Latte Art com Leite Ninho"
+              class="card-imagem"
+            />
+            <div class="card-conteudo">
+              <h3 class="card-titulo">O Ícone do Instagram</h3>
+              <p class="card-descricao">
+                <span>Latte Art com Leite Ninho</span> - Porque café bonito tem
+                80% mais likes (e 100% mais gostosuras).
+              </p>
+              <p class="card-preco">R$ 14,90</p>
+              <a href="./pages/cardapio.html" class="btn">Ver Cardápio</a>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="card">
+            <img
+              src="img/cookie.webp"
+              alt="Cookie de Panela Quente"
+              class="card-imagem"
+            />
+            <div class="card-conteudo">
+              <h3 class="card-titulo">O Surpreendente</h3>
+              <p class="card-descricao">
+                <span>Cookie de Panela Quente</span> - Esquentou, derreteu,
+                conquistou! O que começou como 'experimente' virou vício
+                coletivo.
+              </p>
+              <p class="card-preco">R$ 22,50</p>
+              <a href="./pages/cardapio.html" class="btn">Ver Cardápio</a>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="card">
+            <img
+              src="img/PãoQueijoRecheado.webp"
+              alt="Pão de Queijo Recheado"
+              class="card-imagem"
+            />
+            <div class="card-conteudo">
+              <h3 class="card-titulo">O Herói Disfarçado</h3>
+              <p class="card-descricao">
+                <span>Pão de Queijo Recheado</span> - Por fora, um inocente
+                pãozinho. Por dentro, um vulcão de queijo derretido.
+              </p>
+              <p class="card-preco">R$ 15,50</p>
+              <a href="./pages/cardapio.html" class="btn">Ver Cardápio</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="ambiente-container">
+        <div class="container-ambiente">
+          <h2 class="titulo-topo">Nosso Espaço: Conforto e Produtividade</h2>
+          <p class="intro">
+            Bem-vindo ao <span>Nosso Espaço</span>, onde cada detalhe foi
+            pensado para oferecer a experiência perfeita. Seja para um momento
+            de relaxamento, um encontro com amigos, trabalho ou estudo, temos o
+            ambiente ideal para você.
+          </p>
+
+          <div class="galeria-tres-imagens">
+            <!-- Item 1 - Lounge Musical -->
+            <div class="imagem-item">
+              <img
+                src="img/mesas-cafeteria.webp"
+                alt="Área lounge com música ambiente"
+              />
+              <div class="info-hover">
+                <div class="info-content">
+                  <h3><i class="fas fa-music"></i> Lounge Musical</h3>
+                  <p>
+                    Ambiente acolhedor com música ambiente suave, perfeito para
+                    relaxar ou conversar.
+                  </p>
+                  <ul>
+                    <li><i class="fas fa-couch"></i> Sofás confortáveis</li>
+                    <li>
+                      <i class="fas fa-headphones"></i> Playlist selecionada
+                    </li>
+                    <li><i class="fas fa-coffee"></i> Bebidas especiais</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2 - Área de Silêncio -->
+            <div class="imagem-item">
+              <img
+                src="img/espacosilencioso.webp"
+                alt="Área silenciosa para estudos"
+              />
+              <div class="info-hover">
+                <div class="info-content">
+                  <h3><i class="fas fa-volume-mute"></i> Área de Silêncio</h3>
+                  <p>
+                    Espaço dedicado para quem precisa de concentração total.
+                  </p>
+                  <ul>
+                    <li><i class="fas fa-book"></i> Mesas individuais</li>
+                    <li>
+                      <i class="fas fa-lightbulb"></i> Iluminação adequada
+                    </li>
+                    <li><i class="fas fa-plug"></i> Tomadas disponíveis</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 3 - Área de Trabalho -->
+            <div class="imagem-item">
+              <img
+                src="img/workplace.webp"
+                alt="Mesas para trabalho com tomadas"
+              />
+              <div class="info-hover">
+                <div class="info-content">
+                  <h3><i class="fas fa-wifi"></i> Área de Trabalho</h3>
+                  <p>
+                    Ambiente perfeito para trabalhar ou estudar com conforto.
+                  </p>
+                  <ul>
+                    <li>
+                      <i class="fas fa-wifi"></i> Internet de alta velocidade
+                    </li>
+                    <li><i class="fas fa-chair"></i> Cadeiras ergonômicas</li>
+                    <li><i class="fas fa-bolt"></i> Tomadas acessíveis</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="destaques-section">
+            <h3>O que nos torna especiais:</h3>
+            <ul class="destaques-list">
+              <li>
+                <i class="fas fa-check"></i> Móveis confortáveis para longas
+                horas
+              </li>
+              <li><i class="fas fa-check"></i> Tomadas em todas as mesas</li>
+              <li>
+                <i class="fas fa-check"></i> Iluminação perfeita para cada
+                ocasião
+              </li>
+            </ul>
+          </div>
+
+          <div class="novidades-section">
+            <h3>Em breve novidades:</h3>
+            <div class="novidades-grid">
+              <div class="novidade-item">
+                <i class="fas fa-user-secret"></i>
+                <p>Cabines individuais</p>
+              </div>
+              <div class="novidade-item">
+                <i class="fas fa-umbrella-beach"></i>
+                <p>Espaço ao ar livre</p>
+              </div>
+              <div class="novidade-item">
+                <i class="fas fa-guitar"></i>
+                <p>Eventos culturais</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cta-section">
+            <p>
+              Venha nos visitar e descubra o lugar perfeito para o seu momento!
+            </p>
+            <a href="pages/cardapio.html"
+              ><button class="btn">Conheça nosso cardápio</button></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Sobre Nós</h3>
+          <p>
+            Um lugar para conversar, trabalhar ou simplesmente relaxar com um
+            bom café.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/cardapio.html">Cardápio</a></li>
+            <li><a href="pages/SobreNos.html">Sobre nós</a></li>
+            <li><a href="pages/contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contato</h3>
+          <p>Email: coffetiarosa@gmail.com</p>
+          <p>Telefone: (61) 9 8912-6543</p>
+          <p>
+            Endereço: Brasília/DF - Setor de Grandes Áreas Sul 915 -
+            CEP:70390-140
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; Tia Rosa. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
