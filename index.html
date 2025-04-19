@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Define a codificação de caracteres e configura para ser responsivo -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome para ícones -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -10,37 +13,55 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Favicon do site (ícone na aba) -->
     <link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
+
+    <!-- Estilo principal da página -->
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Script JavaScript da página, carregado de forma assíncrona -->
     <script src="js/scripts.js" defer></script>
+
+    <!-- Título da aba do navegador -->
     <title>Coffee-Shops Tia Rosa</title>
   </head>
+
   <body>
+    <!-- ===== HEADER COM MENU DE NAVEGAÇÃO ===== -->
     <header id="header">
       <nav id="menu_principal">
         <div class="logo">
+          <!-- Logo com link para voltar ao topo -->
           <a href="index.html">
             <img src="img/logo.webp" loading="lazy" alt="Logo do Site" />
           </a>
         </div>
+
+        <!-- Menu de navegação -->
         <ul class="itens-menu">
           <li><a href="index.html">Home</a></li>
           <li><a href="pages/cardapio.html">Cárdapio</a></li>
           <li><a href="pages/SobreNos.html">Sobre nós</a></li>
           <li><a href="pages/contato.html">Contato</a></li>
         </ul>
+
+        <!-- Ícone para menu mobile -->
         <div class="menu-mobile" id="menu-mobile">
           <i class="fas fa-bars"></i>
         </div>
       </nav>
     </header>
 
+    <!-- ===== CONTEÚDO PRINCIPAL ===== -->
     <main>
+      <!-- Seção de boas-vindas -->
       <section id="home">
         <div class="container-home">
           <div class="title-home">
             <img
               src="img/Brown_and_Beige_Modern_Minimalist_Coffee_Shop_Logo-removebg-preview.webp"
+              loading="lazy"
               alt="logoxicara"
               class="logo-xicara"
             />
@@ -79,11 +100,13 @@
         </div>
       </section>
 
+      <!-- Seção com destaques do cardápio -->
       <section id="cardapio_destaque">
         <h2 class="titulo-topo">Do café ao docinho:</h2>
         <p class="intro">os astros mais pedidos do nosso cardápio!</p>
+
         <div class="container-cards">
-          <!-- Card 1 -->
+          <!-- Produto 1 -->
           <div class="card">
             <img
               src="img/cafeee-xpresso.webp"
@@ -102,7 +125,7 @@
             </div>
           </div>
 
-          <!-- Card 2 -->
+          <!-- Produto 2 -->
           <div class="card">
             <img
               src="img/Croissant-Chocolate.webp"
@@ -121,7 +144,7 @@
             </div>
           </div>
 
-          <!-- Card 3 -->
+          <!-- Produto 3 -->
           <div class="card">
             <img
               src="img/Cappuccino-Canela.webp"
@@ -140,7 +163,7 @@
             </div>
           </div>
 
-          <!-- Card 4 -->
+          <!-- Produto 4 -->
           <div class="card">
             <img
               src="img/Latte-Art.webp"
@@ -159,7 +182,7 @@
             </div>
           </div>
 
-          <!-- Card 5 -->
+          <!-- Produto 5 -->
           <div class="card">
             <img
               src="img/cookie.webp"
@@ -179,7 +202,7 @@
             </div>
           </div>
 
-          <!-- Card 6 -->
+          <!-- Produto 6 -->
           <div class="card">
             <img
               src="img/PãoQueijoRecheado.webp"
@@ -200,6 +223,7 @@
         </div>
       </section>
 
+      <!-- Seção de apresentação do espaço da cafeteria -->
       <section id="ambiente-container">
         <div class="container-ambiente">
           <h2 class="titulo-topo">Nosso Espaço: Conforto e Produtividade</h2>
@@ -211,7 +235,7 @@
           </p>
 
           <div class="galeria-tres-imagens">
-            <!-- Item 1 - Lounge Musical -->
+            <!-- Lounge Musical -->
             <div class="imagem-item">
               <img
                 src="img/mesas-cafeteria.webp"
@@ -236,7 +260,7 @@
               </div>
             </div>
 
-            <!-- Item 2 - Área de Silêncio -->
+            <!-- Área de Silêncio -->
             <div class="imagem-item">
               <img
                 src="img/espacosilencioso.webp"
@@ -260,7 +284,7 @@
               </div>
             </div>
 
-            <!-- Item 3 - Área de Trabalho -->
+            <!-- Área de Trabalho -->
             <div class="imagem-item">
               <img
                 src="img/workplace.webp"
@@ -285,6 +309,7 @@
             </div>
           </div>
 
+          <!-- Destaques da estrutura -->
           <div class="destaques-section">
             <h3>O que nos torna especiais:</h3>
             <ul class="destaques-list">
@@ -300,6 +325,7 @@
             </ul>
           </div>
 
+          <!-- Novidades futuras -->
           <div class="novidades-section">
             <h3>Em breve novidades:</h3>
             <div class="novidades-grid">
@@ -318,6 +344,7 @@
             </div>
           </div>
 
+          <!-- Chamada para visitar o local -->
           <div class="cta-section">
             <p>
               Venha nos visitar e descubra o lugar perfeito para o seu momento!
@@ -330,8 +357,10 @@
       </section>
     </main>
 
+    <!-- ===== RODAPÉ ===== -->
     <footer>
       <div class="footer-container">
+        <!-- Seção sobre nós -->
         <div class="footer-section">
           <h3>Sobre Nós</h3>
           <p>
@@ -340,6 +369,7 @@
           </p>
         </div>
 
+        <!-- Links rápidos -->
         <div class="footer-section">
           <h3>Links Rápidos</h3>
           <ul>
@@ -350,6 +380,7 @@
           </ul>
         </div>
 
+        <!-- Contatos -->
         <div class="footer-section">
           <h3>Contato</h3>
           <p>Email: coffetiarosa@gmail.com</p>
@@ -361,6 +392,7 @@
         </div>
       </div>
 
+      <!-- Aviso de direitos autorais -->
       <div class="footer-bottom">
         <p>&copy; Tia Rosa. Todos os direitos reservados.</p>
       </div>

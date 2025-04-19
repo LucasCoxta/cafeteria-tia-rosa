@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Define a codificação de caracteres e configura para ser responsivo -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome para ícones -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -10,35 +13,53 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Favicon do site (ícone na aba) -->
     <link rel="shortcut icon" type="image/ico" href="../img/favicon.ico" />
+
+    <!-- Estilo principal da página -->
     <link rel="stylesheet" href="../css/styles.css" />
+
+    <!-- Script JavaScript da página, carregado de forma assíncrona -->
     <script src="../js/scripts.js" defer></script>
+
+    <!-- Título da aba do navegador -->
     <title>Cardápio - Tia Rosa</title>
   </head>
+
   <body>
+    <!-- ===== HEADER COM MENU DE NAVEGAÇÃO ===== -->
     <header id="header">
       <nav id="menu_principal">
         <div class="logo">
+          <!-- Logo com link para voltar ao topo -->
           <a href="../index.html">
             <img src="../img/logo.webp" alt="Logo do Site" />
           </a>
         </div>
+
+        <!-- Menu de navegação -->
         <ul class="itens-menu">
           <li><a href="../index.html">Home</a></li>
           <li><a href="cardapio.html">Cárdapio</a></li>
           <li><a href="SobreNos.html">Sobre nós</a></li>
           <li><a href="contato.html">Contato</a></li>
         </ul>
+
+        <!-- Ícone para menu mobile -->
         <div class="menu-mobile" id="menu-mobile">
           <i class="fas fa-bars"></i>
         </div>
       </nav>
     </header>
 
+    <!-- ===== CONTEÚDO PRINCIPAL ===== -->
     <main class="contact-page">
+      <!-- Seção com informações de contato -->
       <section class="contact-info">
         <h2>Entre em Contato</h2>
         <div class="info-container">
+          <!-- endereço da empresa -->
           <div class="info-item">
             <i class="fas fa-map-marker-alt"></i>
             <div>
@@ -48,6 +69,8 @@
               <p>CEP: 70390-140</p>
             </div>
           </div>
+
+          <!-- Bloco com os números de telefone -->
           <div class="info-item">
             <i class="fas fa-phone"></i>
             <div>
@@ -56,6 +79,8 @@
               <p>(61) 9 8912-6543 (WhatsApp)</p>
             </div>
           </div>
+
+          <!-- Bloco com os e-mails de contato -->
           <div class="info-item">
             <i class="fas fa-envelope"></i>
             <div>
@@ -64,6 +89,8 @@
               <p>reservas.coffetiarosa@gmail.com</p>
             </div>
           </div>
+
+          <!-- Bloco com o horário de funcionamento -->
           <div class="info-item">
             <i class="fas fa-clock"></i>
             <div>
@@ -75,33 +102,46 @@
         </div>
       </section>
 
+      <!-- Seção com o formulário de contato -->
       <section class="contact-form">
         <h2>Mande uma Mensagem</h2>
         <form>
+          <!-- Campo para o nome -->
           <div class="form-group">
             <label for="name">Nome:</label>
             <input type="text" id="name" name="name" required />
           </div>
+
+          <!-- Campo para o email -->
           <div class="form-group">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required />
           </div>
+
+          <!-- Campo para o telefone -->
           <div class="form-group">
             <label for="phone">Telefone:</label>
             <input type="tel" id="phone" name="phone" />
           </div>
+
+          <!-- Campo para o assunto da mensagem -->
           <div class="form-group">
             <label for="subject">Assunto:</label>
             <input type="text" id="subject" name="subject" required />
           </div>
+
+          <!-- Campo para a mensagem em si -->
           <div class="form-group">
             <label for="message">Mensagem:</label>
             <textarea id="message" name="message" rows="5" required></textarea>
           </div>
+
+          <!-- Botão de envio do formulário -->
           <button type="submit" class="btn">Enviar Mensagem</button>
         </form>
       </section>
 
+      <!-- Seção com o mapa de localização -->
       <section class="map">
         <h2>Onde Estamos</h2>
         <div class="map-container">
@@ -119,8 +159,10 @@
       </section>
     </main>
 
+    <!-- ===== RODAPÉ ===== -->
     <footer>
       <div class="footer-container">
+        <!-- Seção sobre nós -->
         <div class="footer-section">
           <h3>Sobre Nós</h3>
           <p>
@@ -129,6 +171,7 @@
           </p>
         </div>
 
+        <!-- Links rápidos -->
         <div class="footer-section">
           <h3>Links Rápidos</h3>
           <ul>
@@ -139,6 +182,7 @@
           </ul>
         </div>
 
+        <!-- Contatos -->
         <div class="footer-section">
           <h3>Contato</h3>
           <p>Email: coffetiarosa@gmail.com</p>
@@ -150,6 +194,7 @@
         </div>
       </div>
 
+      <!-- Aviso de direitos autorais -->
       <div class="footer-bottom">
         <p>&copy; Tia Rosa. Todos os direitos reservados.</p>
       </div>

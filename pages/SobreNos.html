@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Define a codificação de caracteres e configura para ser responsivo -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome para ícones -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -10,34 +13,52 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Favicon do site (ícone na aba) -->
     <link rel="shortcut icon" type="image/ico" href="../img/favicon.ico" />
+
+    <!-- Estilo principal da página -->
     <link rel="stylesheet" href="../css/styles.css" />
+
+    <!-- Script JavaScript da página, carregado de forma assíncrona -->
     <script src="../js/scripts.js" defer></script>
+
+    <!-- Título da aba do navegador -->
     <title>Cardápio - Tia Rosa</title>
   </head>
+
   <body>
+    <!-- ===== HEADER COM MENU DE NAVEGAÇÃO ===== -->
     <header id="header">
       <nav id="menu_principal">
         <div class="logo">
+          <!-- Logo com link para voltar ao topo -->
           <a href="../index.html">
             <img src="../img/logo.webp" alt="Logo do Site" />
           </a>
         </div>
+
+        <!-- Menu de navegação -->
         <ul class="itens-menu">
           <li><a href="../index.html">Home</a></li>
           <li><a href="cardapio.html">Cárdapio</a></li>
           <li><a href="SobreNos.html">Sobre nós</a></li>
           <li><a href="contato.html">Contato</a></li>
         </ul>
+
+        <!-- Ícone para menu mobile -->
         <div class="menu-mobile" id="menu-mobile">
           <i class="fas fa-bars"></i>
         </div>
       </nav>
     </header>
 
+    <!-- ===== CONTEÚDO PRINCIPAL ===== -->
     <main>
+      <!-- Seção "Sobre Nós" contendo a apresentação da marca Tia Rosa -->
       <section class="sobre-nos">
         <div class="sobre-container">
+          <!-- Conteúdo textual da seção -->
           <div class="sobre-conteudo">
             <h2>Sobre Nós</h2>
             <h1>Tia Rosa</h1>
@@ -45,6 +66,7 @@
               Bem-vindo ao <strong>Tia Rosa</strong>, onde cada receita é feita
               com carinho e tradição!
             </p>
+            <!-- Parágrafo contando a origem da marca -->
             <p>
               Nossa história começou na cozinha da Dona Rosa, uma apaixonada por
               culinária que transformava ingredientes simples em pratos cheios
@@ -52,6 +74,7 @@
               legado com você, oferecer produtos artesanais e receitas que
               trazem aconchego e aquele gostinho de comida caseira.
             </p>
+            <!-- Parágrafo sobre os valores da marca -->
             <p>
               Na <strong>Tia Rosa</strong>, acreditamos que cozinhar vai além de
               alimentar – é uma forma de unir pessoas, criar memórias e celebrar
@@ -59,12 +82,18 @@
               o cuidado artesanal em tudo o que fazemos, desde bolos e doces até
               pratos salgados que remetem à infância.
             </p>
+            <!-- Frase de efeito com destaque -->
             <p class="destaque-sobre">
               "Com amor e tempero, como só a Tia Rosa sabe fazer."
               <span>💖</span>
             </p>
-            <a href="#" class="btn">Conheça nosso cardápio</a>
+            <!-- Botão que leva ao cardápio -->
+            <a href="cardapio.html"
+              ><button class="btn">Conheça nosso cardápio</button></a
+            >
           </div>
+
+          <!-- Imagem ilustrativa da marca ou equipe -->
           <div class="sobre-imagem">
             <img src="../img/tiarosa.webp" alt="Tia Rosa e funcionarios" />
           </div>
@@ -72,8 +101,10 @@
       </section>
     </main>
 
+    <!-- ===== RODAPÉ ===== -->
     <footer>
       <div class="footer-container">
+        <!-- Seção sobre nós -->
         <div class="footer-section">
           <h3>Sobre Nós</h3>
           <p>
@@ -82,6 +113,7 @@
           </p>
         </div>
 
+        <!-- Links rápidos -->
         <div class="footer-section">
           <h3>Links Rápidos</h3>
           <ul>
@@ -92,6 +124,7 @@
           </ul>
         </div>
 
+        <!-- Contatos -->
         <div class="footer-section">
           <h3>Contato</h3>
           <p>Email: coffetiarosa@gmail.com</p>
@@ -103,6 +136,7 @@
         </div>
       </div>
 
+      <!-- Aviso de direitos autorais -->
       <div class="footer-bottom">
         <p>&copy; Tia Rosa. Todos os direitos reservados.</p>
       </div>
